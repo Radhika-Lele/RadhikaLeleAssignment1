@@ -66,20 +66,27 @@ nav  a {
 nav a:hover, nav a:focus{
     border:4px solid white;
 }
-.socialIcons{
-     position: absolute;
-    right:30px; 
-    
-}
+.socialIcons ul{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    transform: translateX(6rem);
+  }
+
 .headSocial{
     display: flex;
-   
+
 }
  .wrapper {
     max-width: 1080px;
     width: 90%;
     margin: 0 auto;
 } 
+.socialIcons{
+    min-width: 70%;
+}
 
 
 
@@ -118,6 +125,8 @@ nav a:hover, nav a:focus{
     /* margin-bottom: 50px; */
     font-family: 'Offside', cursive;
     font-weight: regular;
+    margin-top: -11px;
+    margin-bottom: 34px;
    
 }
 /* .imageContainer li{
@@ -132,19 +141,25 @@ nav a:hover, nav a:focus{
 }
 .about .parkSafari{
     display: flex;
-    align-items: center; 
+    /* align-items: center;  */
     /* justify-content: space-between;   */
     justify-content: center;
 }
 .textContainer{
-    padding: 25px;
+    padding: 0px 25px;
     flex: 1 1 300px;
     align-content: flex-start;
     margin-left:-40px;
 }
 .textContainer h2{
     text-align: left;
+    margin-bottom: 10px;
  } 
+
+ .textContainer p{
+    letter-spacing: 0.8px;
+
+ }
 .park img{
     /* width: 22%;
     margin-right: 60px;
@@ -196,6 +211,7 @@ nav a:hover, nav a:focus{
             {
                 /* justify-content: center; */
             text-align: center;
+            margin-left: 19px;
             }
             .parkSafari .park img{
                 margin: 0 0 0px 0;
@@ -203,14 +219,18 @@ nav a:hover, nav a:focus{
                 display: block;
                 flex-basis: 100%; 
                 margin-top: -20px;
+                margin-left: 44px;
+                margin-bottom: 21px;
             } 
             .textContainer h2,
             .textContainer p{
                 text-align: left;
-                margin-top: -10px;
+                
+                margin-top: 10px;
             }
             .about .wrapper h2{
-                margin-top: -15px;
+                margin-top: -36px;
+                margin-top: 9px;
             }
             
             .imageContainer li {
