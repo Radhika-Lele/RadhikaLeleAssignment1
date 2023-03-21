@@ -36,7 +36,7 @@ h1{
   
     text-align: left;
      width: 263px;
-     font-weight: 400;
+     font-weight: 500;
      font-family: 'Barlow', sans-serif;
      margin-right: 10px;
      
@@ -204,7 +204,7 @@ nav a:hover, nav a:focus{
                 overflow-x: hidden;
             }
             .parkSafari {
-                flex-direction: column;
+                flex-direction: column-reverse;
                 text-align: center;    
             }
             .textContainer
@@ -226,11 +226,14 @@ nav a:hover, nav a:focus{
             .textContainer p{
                 text-align: left;
                 
-                margin-top: 10px;
+                margin-top: -5px;
             }
             .about .wrapper h2{
                 margin-top: -36px;
                 margin-top: 9px;
+            }
+            .textContainerh2{
+                margin-top: -20px;
             }
             
             .imageContainer li {
